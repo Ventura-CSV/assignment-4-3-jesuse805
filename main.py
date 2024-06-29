@@ -1,16 +1,15 @@
 def main():
-    number = int(input('Enter your input: '))
+    x = int(input('Enter your input: '))
     result = []
     
-    while number > 0:
-        remainder = number % 2
+    while x > 0:
+        remainder = x % 2
         result.append(remainder)
-        number = number // 2
+        x = x // 2
         
+    #result.reverse()
     
-        
-
-    print(*result)
+    print(' '.join(map(str, result)))
     ########################################
     # Do not delete the return statement
     ########################################
