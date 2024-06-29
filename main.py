@@ -1,11 +1,11 @@
 def main():
     number = int(input('Enter your input: '))
     result = []
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    
+    while number > 0:
+        remainder = x % 2
+        result.append
+        
 
     print(*result)
     ########################################
