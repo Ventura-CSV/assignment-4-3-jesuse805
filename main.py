@@ -3,8 +3,11 @@ def main():
     result = []
     
     while number > 0:
-        remainder = x % 2
-        result.append
+        remainder = number % 2
+        result.append(remainder)
+        number = number // 2
+        
+    
         
 
     print(*result)
