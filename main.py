@@ -1,5 +1,7 @@
 def main():
+    
     x = int(input('Enter your input: '))
+    
     result = []
     
     while x > 0:
@@ -7,7 +9,6 @@ def main():
         result.append(remainder)
         x = x // 2
         
-    #result.reverse()
     
     print(' '.join(map(str, result)))
     ########################################
